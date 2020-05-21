@@ -1,38 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
 .App {
-  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 500px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App form {
+  position: relative;
+  left: 35%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App form input {
+  margin: 2px;
+  width: 250px;
+  height: 40px;
+  border: none;
+  border: 1px solid grey;
+  padding-left: 20px;
+  font-size: 13px;
+  border-radius: 25px 0px 0px 25px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App form button {
+  width: 150px;
+  height: 43px;
+  border: 1px solid #669999;
+  border-radius: 0px 25px 25px 0px;
+  background-color: #669999;
+  color: #fff;
 }
